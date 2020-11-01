@@ -1,0 +1,38 @@
+{
+  "name": "sharedb-redis-db",
+  "version": "1.0.0",
+  "description": "In-memory database adapter with Redis for ShareDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soney/sharedb-redis-db.git"
+  },
+  "keywords": [
+    "sharedb",
+    "sharejs",
+    "share",
+    "redis",
+    "ot",
+    "operational transformation",
+    "redlock"
+  ],
+  "author": {
+    "name": "Win Min Tun",
+    "email": "sawrochelais@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soney/sharedb-redis-db/issues"
+  },
+  "homepage": "https://github.com/soney/sharedb-redis-db#readme",
+  "peerDependencies": {
+    "redis": "^3.0.2",
+    "sharedb": "^1.4.2"
+  },
+  "dependencies": {
+    "redlock": "^4.2.0"
+  }
+}

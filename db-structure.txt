@@ -1,0 +1,12 @@
+// currently use string data type for JSON and parsed back to JSON.
+// at the time of writing this lib the native JSON data type for redis https://github.com/redislabsmodules/rejson is not mature enough,
+
+// can customize the redis snap and ops keys prefix, default 's' and 'o'
+
+// redis key => value structure
+
+// snapshots
+s:collection:docId => {doc_type, ver, data, ctime, mtime}
+
+// operation
+o:collection:docId => {ver: { operation, ctime } }
